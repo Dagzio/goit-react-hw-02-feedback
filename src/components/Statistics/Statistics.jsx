@@ -1,9 +1,9 @@
-const Statistics = () => {
+const Statistics = ({good, neutral, bad}) => {
     return <>
         <h2>Statistics</h2>
-        <p>Good: </p>
-        <p>Neutral: </p>
-        <p>Bad: </p>
+        <p>Good: { good }</p>
+        <p>Neutral: {neutral}</p>
+        <p>Bad: {bad}</p>
     </>
 };
 
